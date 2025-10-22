@@ -1,22 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Doramaflix</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Doramaflix</h1>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo">
+        <img src="https://i.imgur.com/no929ze.png" alt="Doramaflix logo" />
+      </div>
+
+      <div class="search-wrap">
+        <input id="search" type="search" placeholder="Pesquisar doramas..." />
+      </div>
+
+      <nav class="header-actions">
+        <button id="btn-refresh" title="Atualizar">↻</button>
+      </nav>
+    </div>
   </header>
 
-  <main id="doramas-container">
-    <!-- Os cards serão adicionados aqui pelo script.js -->
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <h1>Assista aos seus doramas favoritos</h1>
+        <p>Selecione um título abaixo — toque em Assistir para abrir o player.</p>
+      </div>
+    </section>
+
+    <section id="catalog" class="catalog">
+      <div id="grid" class="grid"></div>
+    </section>
   </main>
 
-  <footer>
-    <p>© 2025 Doramaflix</p>
+  <footer class="site-footer">
+    <small>© 2025 Doramaflix</small>
   </footer>
+
+  <!-- PLAYER MODAL -->
+  <div id="playerModal" class="modal" aria-hidden="true">
+    <div class="modal-backdrop" id="modalClose"></div>
+    <div class="modal-content" role="dialog" aria-modal="true">
+      <button id="closeBtn" class="modal-close" title="Fechar">✕</button>
+      <div class="video-wrap">
+        <video id="player" controls playsinline></video>
+      </div>
+      <div id="meta" class="meta"></div>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>
