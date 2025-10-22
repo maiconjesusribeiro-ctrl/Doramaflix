@@ -12,5 +12,5 @@ fetch("doramas.json")
       `;
       container.appendChild(card);
     });
-  });
-
+  })
+  .catch(error => console.error("Erro ao carregar doramas:", error));
