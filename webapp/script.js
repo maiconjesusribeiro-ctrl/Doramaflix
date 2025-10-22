@@ -1,5 +1,5 @@
 fetch("doramas.json")
-  .then(response => response.json())
+  .then(res => res.json())
   .then(doramas => {
     const container = document.getElementById("doramas-container");
     doramas.forEach(d => {
@@ -13,4 +13,4 @@ fetch("doramas.json")
       container.appendChild(card);
     });
   })
-  .catch(error => console.error("Erro ao carregar doramas:", error));
+  .catch(err => console.error("Erro ao carregar doramas:", err));
