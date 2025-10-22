@@ -2,11 +2,16 @@
   {
     "titulo": "Meu Marido Bilionário",
     "capa": "https://i.imgur.com/JQFwuEk.png",
-    "link": "https://oudmzvflttffsjgkknrs.supabase.co/storage/v1/object/public/doramaapp/Meu%20marido%20Bilionario/Episodio%201.mp4"
+    "video": "https://oudmzvflttffsjgkknrs.supabase.co/storage/v1/object/public/doramaapp/Meu%20marido%20Bilionario/Episodio%201.mp4"
   },
   {
-    "titulo": "Rainha Solitária",
-    "capa": "https://i.imgur.com/sR5OvHL.png",
-    "link": "https://example.com/episodio1"
+    "titulo": "Outro Dorama",
+    "capa": "https://i.imgur.com/abc123.png",
+    "video": "https://oudmzvflttffsjgkknrs.supabase.co/storage/v1/object/public/doramaapp/OutroDorama/Episodio%201.mp4"
+  },
+  {
+    "titulo": "Dorama Teste",
+    "capa": "https://i.imgur.com/xyz456.png",
+    "video": "https://oudmzvflttffsjgkknrs.supabase.co/storage/v1/object/public/doramaapp/DoramaTeste/Episodio%201.mp4"
   }
 ]
