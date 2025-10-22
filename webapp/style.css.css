@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0b0b0b;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+#dorama-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.dorama-card {
+  background: #1a1a1a;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
+}
+
+.dorama-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.assistir {
+  display: block;
+  padding: 10px;
+  background: #ff0055;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}

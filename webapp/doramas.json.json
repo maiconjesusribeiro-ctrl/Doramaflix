@@ -1,0 +1,12 @@
+[
+  {
+    "titulo": "Meu Marido Bilionário",
+    "capa": "https://i.imgur.com/JQFwuEk.png",
+    "link": "https://oudmzvflttffsjgkknrs.supabase.co/storage/v1/object/public/doramaapp/Meu%20marido%20Bilionario/Episodio%201.mp4"
+  },
+  {
+    "titulo": "Rainha Solitária",
+    "capa": "https://i.imgur.com/sR5OvHL.png",
+    "link": "https://example.com/episodio1"
+  }
+]
