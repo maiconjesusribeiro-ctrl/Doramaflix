@@ -5,6 +5,57 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Doramaflix</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Ajustes solicitados */
+    .site-header {
+      background: #ff0000;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+    }
+
+    .header-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 18px;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .logo img {
+      height: 90px;
+      display: block;
+      filter: drop-shadow(0 0 12px rgba(0, 0, 0, 0.6));
+      margin-bottom: 10px;
+    }
+
+    .search-wrap {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    #search {
+      width: 70%;
+      max-width: 500px;
+      padding: 12px 18px;
+      border-radius: 999px;
+      border: none;
+      background: #79080b;
+      color: #fff;
+      outline: none;
+      font-size: 16px;
+      text-align: center;
+    }
+
+    #search::placeholder {
+      color: rgba(255, 255, 255, 0.6);
+    }
+  </style>
 </head>
 <body>
   <header class="site-header">
@@ -13,13 +64,17 @@
         <img src="https://i.imgur.com/xCwmFa1.png" alt="Doramaflix logo" />
       </div>
 
+      <div class="search-wrap">
+        <input id="search" type="search" placeholder="Pesquisar doramas..." />
+      </div>
+    </div>
   </header>
 
   <main>
     <section class="hero">
       <div class="hero-inner">
-        <h1>Os melhores doramas só aqui</h1>
-        <p>assista quando quiser.</p>
+        <h1>Os melhores doramas — só aqui</h1>
+        <p>Compre agora e assista quando quiser.</p>
       </div>
     </section>
 
