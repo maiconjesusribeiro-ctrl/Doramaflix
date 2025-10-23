@@ -1,7 +1,6 @@
-const DORAMAS_JSON = "./doramas.json"; // Certifique-se que doramas.json está na mesma pasta do index.html
+const DORAMAS_JSON = "./doramas.json"; // JSON na mesma pasta do index.html
 const grid = document.getElementById("grid");
 const searchInput = document.getElementById("search");
-const btnSearch = document.getElementById("btn-search");
 const modal = document.getElementById("playerModal");
 const modalClose = document.getElementById("modalClose");
 const closeBtn = document.getElementById("closeBtn");
@@ -60,11 +59,13 @@ function closeModal() {
 modalClose.addEventListener("click", closeModal);
 closeBtn.addEventListener("click", closeModal);
 
-// Pesquisa
-btnSearch.addEventListener("click", () => {
-  const q = searchInput.value.toLowerCase();
-  const filtered = doramas.filter(d => d.titulo.toLowerCase().includes(q));
-  renderGrid(filtered);
+// Pesquisa ao digitar Enter
+searchInput.addEventListener("keypress", (e) => {
+  if (e.key === "Enter") {
+    const q = searchInput.value.toLowerCase();
+    const filtered = doramas.filter(d => d.titulo.toLowerCase().includes(q));
+    renderGrid(filtered);
+  }
 });
 
 // Inicializa
