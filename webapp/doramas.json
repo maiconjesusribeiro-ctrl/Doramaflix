@@ -2,55 +2,11 @@
   {
     "titulo": "Meu Marido Bilionário",
     "capa": "https://i.imgur.com/JQFwuEk.png",
-    "ano": "2023",
-    "descricao": "Romance, dram— capítulo 1"
+    "video": "https://oudmzvflttffsjgkknrs.supabase.co/storage/v1/object/public/doramaapp/Meu%20marido%20Bilionario/Episodio%201.mp4"
   },
   {
     "titulo": "Dorama Teste 2",
     "capa": "https://i.imgur.com/B4s9aYA.png",
-    "ano": "2022",
-    "descricao": "Comédia romântica — episódio piloto"
-  },
-  {
-    "titulo": "Dorama Demo 3",
-    "capa": "https://i.imgur.com/xyz456.png",
-    "ano": "2021",
-    "descricao": "Suspense - episódio 1"
-  },
-  {
-    "titulo": "Meu Marido Bilionário",
-    "capa": "https://i.imgur.com/JQFwuEk.png",
-    "ano": "2023",
-    "descricao": "Romance, drama — capítulo 1"
-  },
-  {
-    "titulo": "Dorama Teste 2",
-    "capa": "https://i.imgur.com/B4s9aYA.png",
-    "ano": "2022",
-    "descricao": "Comédia romântica — episódio piloto"
-  },
-  {
-    "titulo": "Dorama Demo 3",
-    "capa": "https://i.imgur.com/xyz456.png",
-    "ano": "2021",
-    "descricao": "Suspense - episódio 1"
-  },
-  {
-    "titulo": "Meu Marido Bilionário",
-    "capa": "https://i.imgur.com/JQFwuEk.png",
-    "ano": "2023",
-    "descricao": "Romance, drama — capítulo 1"
-  },
-  {
-    "titulo": "Dorama Teste 2",
-    "capa": "https://i.imgur.com/B4s9aYA.png",
-    "ano": "2022",
-    "descricao": "Comédia romântica — episódio piloto"
-  },
-  {
-    "titulo": "Dorama Demo 3",
-    "capa": "https://i.imgur.com/xyz456.png",
-    "ano": "2021",
-    "descricao": "Suspense - episódio 1"
+    "video": "https://oudmzvflttffsjgkknrs.supabase.co/storage/v1/object/public/doramaapp/Teste2.mp4"
   }
 ]
