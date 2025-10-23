@@ -1,4 +1,4 @@
-const DORAMAS_JSON = "/doramas.json.json"; // JSON na mesma pasta do index.html
+const DORAMAS_JSON = "doramas.json.json"; // JSON na mesma pasta do index.html
 const grid = document.getElementById("grid");
 const searchInput = document.getElementById("search");
 const modal = document.getElementById("playerModal");
